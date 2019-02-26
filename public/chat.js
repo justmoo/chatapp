@@ -1,4 +1,4 @@
-var socket =io.connect('http://localhost:3000');
+var socket =io.connect('https://chat-mo.herokuapp.com/');//
 
 //Query
     var message = document.getElementById('message'),
