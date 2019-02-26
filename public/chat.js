@@ -1,4 +1,5 @@
-var socket =io.connect('https://chat-mo.herokuapp.com/');//
+
+var socket =io.connect('http://localhost:3000');
 
 //Query
     var message = document.getElementById('message'),
@@ -9,10 +10,15 @@ var socket =io.connect('https://chat-mo.herokuapp.com/');//
 
 // Emit 
 btn.addEventListener('click',function(){
+    // if(message.value==""||user.value==""){
+    //     break;
+    // }else{
 socket.emit('chat',{
     message:message.value,
     user:user.value
     });
+    message.reset();
+
 }); 
 // typing
 message.addEventListener('keypress',function(){

@@ -17,9 +17,11 @@
             <div id="output"></div>
             <div id="feedback"></div>
         </div>
-        <input id="user" type="text" placeholder="Username">
-        <input id="message" type="textarea" placeholder="Message">
-        <button id='send'>Hit</button>
+        <div class="form-group">
+                <input id="user" class="form-control" type="text" placeholder="Username" required>
+                <input id="message"  class="form-control" type="textarea" placeholder="Message" required>
+                <button id='send' class="btn btn-primary btn-lg">Hit</button>
+        </div>
     </div>
 
     <script src="chat.js"></script>
