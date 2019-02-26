@@ -6,4 +6,4 @@ this is a simple chatting website using socket.io
 * more to come
 
 ### to try out the website 
-[here](https://chat-mo.herokuapp.com/)
+[here , it's a bit slow](https://chat-mo.herokuapp.com/)
